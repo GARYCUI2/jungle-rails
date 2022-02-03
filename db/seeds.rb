@@ -104,7 +104,7 @@ cat2.products.create!({
   name:  'World\'s Largest Smartwatch',
   description: Faker::Hipster.paragraph(4),
   image: open_asset('electronics3.jpg'),
-  quantity: 0,
+  quantity: 32,
   price: 2_026.29
 })
 
@@ -120,7 +120,7 @@ cat3.products.create!({
   name:  'Electric Chair',
   description: Faker::Hipster.paragraph(4),
   image: open_asset('furniture2.jpg'),
-  quantity: 0,
+  quantity: 2,
   price: 987.65
 })
 
